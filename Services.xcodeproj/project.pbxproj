@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C71908725D3465E00D353D0 /* Ivorywhite in Frameworks */ = {isa = PBXBuildFile; productRef = 0C71908625D3465E00D353D0 /* Ivorywhite */; };
+		0C71908F25D3484000D353D0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C71908E25D3484000D353D0 /* README.md */; };
 		2541BCAE248430830098FBFB /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2541BCA4248430830098FBFB /* Services.framework */; };
 		2541BCB3248430830098FBFB /* ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2541BCB2248430830098FBFB /* ServicesTests.swift */; };
 		2541BCB5248430830098FBFB /* Services.h in Headers */ = {isa = PBXBuildFile; fileRef = 2541BCA7248430830098FBFB /* Services.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C71908E25D3484000D353D0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2541BCA4248430830098FBFB /* Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2541BCA7248430830098FBFB /* Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
 		2541BCA8248430830098FBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,10 +63,7 @@
 		2541BCDB248431410098FBFB /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
 		255AF08424A3CFC900D7A348 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
 		255AF08624A3D20300D7A348 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		255AF08E24A3D55100D7A348 /* input.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = input.xcfilelist; sourceTree = "<group>"; };
-		255AF08F24A3D55100D7A348 /* output.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = output.xcfilelist; sourceTree = "<group>"; };
 		25840564248ABE8000F6C548 /* Ivorywhite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ivorywhite.framework; path = Carthage/Build/iOS/Ivorywhite.framework; sourceTree = "<group>"; };
-		25AB96C62484342200B907B1 /* copy-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "copy-frameworks.sh"; sourceTree = "<group>"; };
 		25AB96CB24856F7100B907B1 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +90,7 @@
 		2541BC9A248430830098FBFB = {
 			isa = PBXGroup;
 			children = (
+				0C71908E25D3484000D353D0 /* README.md */,
 				2541BCA6248430830098FBFB /* Services */,
 				2541BCB1248430830098FBFB /* ServicesTests */,
 				2541BCA5248430830098FBFB /* Products */,
@@ -110,12 +110,10 @@
 		2541BCA6248430830098FBFB /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				25AB96C52484341400B907B1 /* BuildScripts */,
 				2541BCC1248430E20098FBFB /* Services */,
 				2541BCC0248430C70098FBFB /* Requests */,
 				2541BCBF248430C20098FBFB /* Models */,
 				2541BCBE248430B60098FBFB /* Extensions */,
-				255AF08824A3D3D700D7A348 /* SupportingFiles */,
 				2541BCA7248430830098FBFB /* Services.h */,
 				2541BCC72484311B0098FBFB /* ApiConfiguration.swift */,
 				2541BCA8248430830098FBFB /* Info.plist */,
@@ -189,23 +187,6 @@
 				25840564248ABE8000F6C548 /* Ivorywhite.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		255AF08824A3D3D700D7A348 /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				255AF08E24A3D55100D7A348 /* input.xcfilelist */,
-				255AF08F24A3D55100D7A348 /* output.xcfilelist */,
-			);
-			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		25AB96C52484341400B907B1 /* BuildScripts */ = {
-			isa = PBXGroup;
-			children = (
-				25AB96C62484342200B907B1 /* copy-frameworks.sh */,
-			);
-			path = BuildScripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C71908F25D3484000D353D0 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

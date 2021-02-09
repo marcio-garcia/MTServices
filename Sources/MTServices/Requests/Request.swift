@@ -6,6 +6,7 @@
 //  Copyright © 2020 Oxl Tech. All rights reserved.
 //
 
+import Foundation
 import Ivorywhite
 
 class Request {
